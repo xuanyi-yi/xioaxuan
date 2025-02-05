@@ -12,6 +12,7 @@
             text-align: center;
             background-color: #f4f4f4;
         }
+
         .container {
             max-width: 800px;
             margin: 50px auto;
@@ -20,59 +21,36 @@
             border-radius: 10px;
             box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
         }
-        h1 {
-            color: #333;
-        }
-        p {
-            color: #666;
-        }
-        .contact {
-            margin-top: 20px;
-            font-size: 16px;
-        }
-        .contact a {
-            color: #007bff;
-            text-decoration: none;
-        }
-        .skills {
-            margin-top: 20px;
-            padding: 10px;
-            background: #e9ecef;
-            border-radius: 5px;
-        }
-        .skills h2 {
-            color: #333;
-        }
-        .skills ul {
-            list-style-type: none;
-            padding: 0;
-        }
-        .skills li {
-            margin: 5px 0;
+
+        /* 右上角头像样式 */
+        .profile-pic {
+            position: absolute;
+            top: 20px;   /* 距离页面顶部 20px */
+            right: 20px; /* 距离页面右侧 20px */
+            width: 100px;  /* 控制图片大小 */
+            height: 100px; /* 保持图片比例 */
+            border-radius: 50%; /* 让图片变成圆形 */
+            border: 2px solid white; /* 给图片加个白色边框 */
+            box-shadow: 0 0 5px rgba(0, 0, 0, 0.2); /* 轻微阴影效果 */
         }
     </style>
 </head>
 <body>
+
+    <!-- 右上角个人照片 -->
+    <img class="profile-pic" src="">
+
     <div class="container">
         <h1>欢迎来到我的个人主页</h1>
-       <img src=" https://github.com/xuanyi-yi/xuan/blob/main/902ce2933b03bc68cf5be46a6404599.jpg?raw=true"
-        <p>你好，我是莫宇轩，一名废物。</p>
-        <p>我擅长C语言，python，前端开发，硬件设计，软件编译等，并致力于不断学习和成长。</p>
-        
-        <div class="skills">
-            <h2>我的特长</h2>
-            <ul>
-                <li>特长 C语言</>
-                <li>特长 Python</>
-                <li>特长 硬软件开发编译</>
-            </ul>
-        </div>
+        <p>你好，我是moyuxuan，一名小小的天才少年。</p>
+        <p>我擅长修改网页，硬软件开发设计，后端维护等，并致力于不断学习和成长。</p>
         
         <div class="contact">
             <h2>联系方式</h2>
-            <p>📧 邮箱: <a href="mailto：your@email.com">moy82175@gmail.com</a></p>
-            <p>📞 电话: 135-8584-9773</p>
+            <p>📧 邮箱: <a href="mailto:your@email.com">moy82175@email.com</a></p>
+            <p>📞 电话: 137-7567-8471</p>
         </div>
     </div>
+
 </body>
 </html>
