@@ -22,16 +22,25 @@
             box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
         }
 
-        /* 右上角头像样式 */
+          /* 头像和标题并排 */
+        .header {
+            display: flex; /* 让头像和标题一行排列 */
+            align-items: center; /* 垂直居中 */
+            justify-content: center; /* 水平居中 */
+        }
+
+        /* 头像样式 */
         .profile-pic {
-            position: absolute;
-            top: 20px;   /* 距离页面顶部 20px */
-            right: 20px; /* 距离页面右侧 20px */
-            width: 80px;  /* 控制图片大小 */
-            height: 80px; /* 保持图片比例 */
-            border-radius: 50%; /* 让图片变成圆形 */
-            border: 2px solid white; /* 给图片加个白色边框 */
-            box-shadow: 0 0 5px rgba(0, 0, 0, 0.2); /* 轻微阴影效果 */
+            width: 60px;  /* 头像缩小 */
+            height: 60px;
+            border-radius: 50%; /* 让头像变成圆形 */
+            border: 2px solid white; /* 添加白色边框 */
+            box-shadow: 0 0 5px rgba(0, 0, 0, 0.2); /* 添加阴影 */
+            margin-right: 15px; /* 让头像和文字之间有一点间距 */
+        }
+
+        .contact {
+            margin-top: 20px;
         }
     </style>
 </head>
