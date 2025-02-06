@@ -22,35 +22,21 @@
             box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
         }
 
-          /* 头像和标题并排 */
-        .header {
-            display: flex; /* 让头像和标题一行排列 */
-            align-items: center; /* 垂直居中 */
-            justify-content: center; /* 水平居中 */
-        }
-
         /* 头像样式 */
         .profile-pic {
-            width: 50px;  /* 头像缩小 */
-            height: 50px;
-            border-radius: 50%; /* 让头像变成圆形 */
-            border: 2px solid white; /* 添加白色边框 */
-            box-shadow: 0 0 5px rgba(0, 0, 0, 0.2); /* 添加阴影 */
-            margin-right: 15px; /* 让头像和文字之间有一点间距 */
+            width: 120px; /* 适当缩小头像 */
+            height: 120px;
+            border-radius: 50%; /* 圆形头像 */
+            border: 3px solid #007BFF; /* 添加边框 */
+            transition: transform 0.3s ease-in-out; /* 添加动画 */
         }
 
-        .contact {
-            margin-top: 20px;
+        .profile-pic:hover {
+            transform: scale(1.1); /* 鼠标悬停时放大 */
         }
     </style>
 </head>
 <body>
-
-   <div class="container">
-        <!-- 头像+标题 -->
-        <div class="header">
-    <img class="profile-pic" src="https://github.com/xuanyi-yi/xuan/blob/main/902ce2933b03bc68cf5be46a6404599.jpg?raw=true">
-
     <div class="container">
         <h1>欢迎来到我的个人主页</h1>
         <p>你好，我是moyuxuan，一名小小的天才少年。</p>
@@ -59,12 +45,10 @@
         <a href="achievements.html">
             <img class="profile-pic" src="https://raw.githubusercontent.com/xuanyi-yi/xuan/blob/main/902ce2933b03bc68cf5be46a6404599.jpg" alt="点击有惊喜">
         </a>
-
         <p>点击我的头像，查看我的成就！</p>
-<a href="pages/achievements.html">
         <div class="contact">
             <h2>联系方式</h2>
-            <p>📧 邮箱: <a href="mailto:your@email.com">moy82175@email.com</a></p>
+            <p>📧 邮箱: <a href="mailto:your@gmail.com">moy82175@email.com</a></p>
             <p>📞 电话: 137-7567-8471</p>
         </div>
     </div>
